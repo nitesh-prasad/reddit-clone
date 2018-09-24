@@ -21,10 +21,14 @@
   font-size: 26px;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: -1px;
+  letter-spacing: 2px;
   padding: 15px 0;
   a {
    color: #2F363E;
+  }
+  a:hover{
+   text-decoration: none;
+   color: #696767;
   }
  }
  #main_content {
@@ -40,6 +44,14 @@
      color: #FF4500;
     }
    }
+h2 {
+   a {
+       color: #de5d5d !important;
+      }
+   a:hover{
+       color: #e41818 !important;
+      }
+    }
   }
   .comments_title {
    margin-top: 2em;

@@ -1,24 +1,24 @@
-# README
+# ReadIt - A Reddit Clone
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Screenshots
 
-Things you may want to cover:
+![readit-1](screenshots/readit-1.png)
 
-* Ruby version
+![readit-2](screenshots/readit-2.png)
 
-* System dependencies
+![readit-3](screenshots/readit-3.png)
 
-* Configuration
+![readit-4](screenshots/readit-4.png)
 
-* Database creation
 
-* Database initialization
+* Ruby version used: 2.5.1
 
-* How to run the test suite
+* How to test the project
 
-* Services (job queues, cache servers, search engines, etc.)
+*Open your terminal*
 
-* Deployment instructions
-
-* ...
+```$ git clone https://github.com/nitesh-prasad/reddit-clone.git
+$ cd reddit-clone
+$ bundle install
+$ bundle exec rake db:create db:migrate db:seed
+$ rails s```
